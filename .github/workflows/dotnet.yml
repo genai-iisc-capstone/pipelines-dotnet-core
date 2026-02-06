@@ -32,9 +32,7 @@ jobs:
       uses: actions/upload-artifact@v6.0.0
       with:
         # Artifact name
-        name: # optional, default is artifact
-        # A file, directory or wildcard pattern that describes what to upload
-        path: 
-        # The desired behavior if no files are found using the provided path.
-        if-no-files-found: # optional, default is warn
+        name: webapp
+        path: website/**
+        if-no-files-found: warn
           
